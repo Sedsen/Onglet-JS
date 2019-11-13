@@ -1,0 +1,50 @@
+.tabs-content {
+  margin: 0 20px 20px;
+  display: none;
+  border: 2px #7510f7 solid;
+  border-radius: 10px;
+}
+div .active {
+  display: block;
+}
+
+.tabs-links ul li a.active {
+  background-color: white;
+  color: #7510f7;
+}
+
+.tabs-links ul {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.tabs-links ul li a {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  margin-left: 5px;
+  font-size: 1.6em;
+  background-color: #7510f7;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15) 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+.tabs-links ul li a:after {
+  content: "   |";
+}
+
+.tabs-links ul li a:hover {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  margin-left: 5px;
+  font-size: 1.6em;
+  background-color: white;
+  color: #7510f7;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15) 0 4px 5px rgba(0, 0, 0, 0.5);
+}
